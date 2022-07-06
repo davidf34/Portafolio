@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@300;400;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Bungee', cursive;
+    background-image: radial-gradient(circle at 4.55% -4.17%, #ffffff 0, #e5f4fc 25%, #b0cee0 50%, #7ba9c5 75%, #4a89ae 100%);
+    
+}
+
+.Logo_header {
+
+    position: relative;
+    top: 20px;
+    left:80px;
+    block-size: 150px;
+    writing-mode: horizontal-tb;
+    margin:auto;
+    width: 150px;
+    max-height: 100px;
+
+}
+
+
+.Main_title{
+    
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.Avatar{
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Dev_embedded{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    top: 500px;
+    left: 200px;
+    top: 80px;
+} 
+
+.Videos_embeddedSystems{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+    height: auto;
+    max-height: 900px;
+    max-width: 900px;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 5px;
+
+}

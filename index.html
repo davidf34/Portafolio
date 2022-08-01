@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Sandoval | Portafolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontello.css">
 </head>
 <body>
     <header>
@@ -13,22 +14,48 @@
             <img class = "Logo_header" src="./logoo-removebg-preview.png" alt="Logo David Sandoval">
             
         </figure>
+        <div class="Button">
+            <input type="checkbox" id="btn-mas">
+            <div class="redes">
+                <a href="https://walink.co/5a4068" class="icon-whatsapp"></a>
+                <a href="https://bit.ly/3acfSd9" class="icon-linkedin-rect"></a>
+
+            </div>
+            <div class="btn-mas">
+                <label for="btn-mas" class="icon-mas2"></label>
+            </div>
+        </div>
         <p class="Main_title">Ingeniería Electrónica y desarrollo.</p>
         <img class="Avatar" src='./avataaars.svg' alt="Avatar David"/>
     </header>
 
-    <nav class="Dev_embedded">
-        <p>Desarrollos a partir de sistemas embebidos.</p>
-        <p>Lenguajes de programación.</p>
-    </nav>
-    
-    <div class="Videos_embeddedSystems">
+    <div class="container_column">
+        <p class="parrag_Subtitle1">Desarrollos a partir de sistemas embebidos y electrónica analógica:</p>
+        <ul class="proyects_embedded">
+            <li>Sistema domótico a partir de electrónica Analógica.</li>
+            <li>Sistema antirrobo de bicicleta con ESP32.</li>
+        </ul>
+        <p class="Leng_prog">Lenguajes de programación:</p>
+        <ul class="prog_languages">
+            <li>Python</li>
+            <li>JAVA</li>
+            <li>JavaScript</li>
+            <li>C/C++</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Sistema de versionamiento Git/GitHub</li> <!-- Este no es un lenguaje de programacion, es un sistema de control de versiones -->
+
+        </ul>
         
-        <video width="600" height="400" controls preload="auto" src="./Domotica_1.mp4"></video>
-        <video width="600" height="400" controls preload = "auto" src="./Domotica_2.mp4"></video>
-        <video width="600" height="400" controls preload = "auto" src="./Domotica_3.mp4"></video>
-        <video width="600" height="400" controls preload = "auto" src="./Domotica_4.mp4"></video>
     </div>
+    
+    <section class="Videos_embeddedSystems">
+        
+        <video width="600" height="400" controls preload="auto" src="./SistemaDomotico.mp4"></video>
+
+    </section>
    
 </body>
 </html>
